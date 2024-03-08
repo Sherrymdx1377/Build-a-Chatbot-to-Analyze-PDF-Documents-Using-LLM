@@ -1,5 +1,3 @@
-## Build-a-Chatbot-to-Analyze-PDF-Documents-Using-LLM
-
 # Introduction
 
 This project is about creating a chatbot for your pdf files using Flask, a popular web framework, and the Langchain, another popular framework for working wtih Large Language Models (LLMs). The chatbot will not just interact with users via text but also comprehend and answer questions related to the content of a specific document. 
@@ -23,5 +21,16 @@ In Flask, routes are created using the @app.route decorator to bind a function t
 
 # HTML - CSS - Javascript
 
-We’ve provided a ready-to-use chatbot front-end, built with HTML, CSS, and Javascript. HTML structures web content, CSS styles it, and Javascript adds interactivity. These technologies create a visually appealing and interactive chatbot interface.
+A ready-to-use chatbot front-end, built with HTML, CSS, and Javascript. HTML structures web content, CSS styles it, and Javascript adds interactivity. These technologies create a visually appealing and interactive chatbot interface.
 
+# Learning Objectives
+
+- Understand the basics of langchain and AI applications
+- Set up a development environment for building an assistant using Python Flask
+- Implement PDF upload functionality to allow the assistant to understand file input from users
+- Integrate the assistant with OpenAI’s GPT-3 model to give it a high level of intelligence and the ability to understand and respond to user requests
+- (Optional) Understand how to deploy the PDF assistant to a web server for use by a wider audience
+
+# Prerequisites
+
+Having knowledge of the basics of HTML/CSS, Javascript, and Python are nice to have but not essential.
