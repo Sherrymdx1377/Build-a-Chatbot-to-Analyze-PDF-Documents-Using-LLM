@@ -34,3 +34,34 @@ A ready-to-use chatbot front-end, built with HTML, CSS, and Javascript. HTML str
 # Prerequisites
 
 Having knowledge of the basics of HTML/CSS, Javascript, and Python are nice to have but not essential.
+
+# Setting Up and Understanding the User Interface
+
+In this project, the goal is to create an interface that allows communication with a chatbot, and a backend to manage the sending and receiving of responses.
+
+Set up the environment by running following lines:
+
+1. pip3 install virtualenv
+2. virtualenv my_env # create a virtual environment my_env
+3. source my_env/bin/activate # activate my_env
+
+The front-end will use HTML, CSS and Javascript with popular libraries such as Bootstrap for basic styling, Font Awesome for icons and JQuery for efficient handling of actions. The user interface will be similar to many of chatbots you see and use online. The code for the interface is provided and the focus of the guided project is on connecting this interface with the backend where we handle the uploading of your custom documents and integrating it with a LLM model to get customised responses. The provided code will help to understand how the front-end and back-end interact, and learn about the important parts and how it works, giving a good understanding of how the front-end works and how to create this simple web page.
+
+Run the following commands to receive the project, and rename it to proper name, and finally move into that directory by running followings:
+
+1. git clone https://github.com/sinanazeri/build_chatbot_for_your_data-design-.git
+2. mv build_chatbot_for_your_data-design- build_chatbot_for_your_data
+3. cd build_chatbot_for_your_data
+
+installing the requirements for the project:
+
+1. pip install Flask Flask_Cors langchain==0.0.299 openai==0.28 pdf2image chromadb==0.4.15 pypdf tiktoken
+
+The next section gives a brief understanding of how the front end works.
+
+# HTML, CSS, and Javascript
+The index.html file is responsible for the layout and structure of the web interface. This file contains the code for incorporating external libraries such as JQuery, Bootstrap, and FontAwesome Icons, as well as the CSS (style.css) and Javascript code (script.js) that control the styling and interactivity of the interface.
+
+The style.css file is responsible for customizing the visual appearance of the page’s components. It also handles the loading animation using CSS keyframes. Keyframes are a way of defining the values of an animation at various points in time, allowing for a smooth transition between different styles and creating dynamic animations.
+
+The script.js file is responsible for the page’s interactivity and functionality. It contains the majority of the code and handles all the necessary functions such as switching between light and dark mode, sending messages, and displaying new messages on the screen. It even enables the users to record audio.
